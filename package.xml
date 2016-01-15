@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>kinect_msgs</name>
+  <version>0.0.0</version>
+  <description>
+  Package to exchange messages between MS Windows and ROS to read data from the
+  Kinect
+  </description>
+  <maintainer email="jose.avalos@utec.edu.pe">Jose Avalos</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>genmsg</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+
+</package>
